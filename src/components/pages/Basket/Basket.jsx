@@ -26,7 +26,7 @@ const Basket = () => {
 
 
   let totalPrice = basket.reduce((acc, el) => {
-    return acc + +el.price * el.quantity;
+    return acc + +el.price;
   }, 0);
 
   return (
