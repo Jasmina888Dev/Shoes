@@ -1,0 +1,29 @@
+#header {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--nav {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      h2 {
+        color: white;
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 100%;
+        letter-spacing: 46.5%;
+        cursor: pointer;
+      }
+    }
+    &--icons {
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      a {
+        font-size: 25px;
+      }
+    }
+  }
+}

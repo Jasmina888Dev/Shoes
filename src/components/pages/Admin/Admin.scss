@@ -1,0 +1,28 @@
+#admin {
+  padding: 70px 0;
+  .admin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    input {
+      padding: 10px 25px;
+      font-size: 20px;
+      border-radius: 15px;
+      border-bottom: 2px solid black;
+      color: black;
+    }
+    button {
+      padding: 10px 20px;
+      background: black;
+      border: none;
+      color: white;
+      font-size: 20px;
+      border-radius: 15px;
+    }
+    h1 {
+      color: white;
+    }
+  }
+}
